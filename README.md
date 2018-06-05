@@ -20,3 +20,8 @@
 - UC18: Add/Remove/Update a doctor profile ✓ Vinh
 - UC19: Sort the list of search result by nearest location, doctor name, rating, number of ratings ✓ Vinh
 - UC20: Evaluate a hospital review (negative/positive) based on the historical review data ✓ Duyệt
+
+Instruction:
+- Please change the info in Util/Info.java
+- Please change the path of distance.py file in Calculate/connectpython.java
+- Recompile it
