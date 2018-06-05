@@ -24,9 +24,9 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author NemoVinh
+ * @author TGMaster
  */
-@WebServlet("/profile")
+@WebServlet(name = "ProfileController", urlPatterns = {"/profile"})
 public class ProfileController extends HttpServlet {
 
     /**
@@ -212,7 +212,7 @@ public class ProfileController extends HttpServlet {
         }
     }
 
-// <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
      *
@@ -240,15 +240,5 @@ public class ProfileController extends HttpServlet {
             throws ServletException, IOException {
         processRequest(request, response);
     }
-
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
 
 }
